@@ -34,18 +34,18 @@ const Navbar = () => {
 
           {/* Desktop Nav */}
           <div className="hidden md:flex items-center gap-x-9 lg:gap-x-10 relative">
-            <Link href="#about" className="text-gray-700 hover:text-indigo-600 font-medium transition">
+            <Link href="#about" className="text-black hover:text-indigo-600 font-medium transition">
               About
             </Link>
-            <Link href="#features" className="text-gray-700 hover:text-indigo-600 font-medium transition">
-              Features
+            <Link href="#features" className="text-black hover:text-indigo-600 font-medium transition">
+              About
             </Link>
 
             {/* Product Dropdown - Desktop */}
             <div className="relative">
               <button
                 onClick={toggleProductDropdown}
-                className="text-gray-700 hover:text-indigo-600 font-medium transition flex items-center gap-1 cursor-pointer"
+                className="text-black hover:text-indigo-600 font-medium transition flex items-center gap-1 cursor-pointer"
               >
                 Product
                 <FiChevronDown
@@ -69,10 +69,10 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="#services" className="text-gray-700 hover:text-indigo-600 font-medium transition">
+            <Link href="#services" className="text-black hover:text-indigo-600 font-medium transition">
               Services
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-indigo-600 font-medium transition">
+            <Link href="#contact" className="text-black hover:text-indigo-600 font-medium transition">
               Contact
             </Link>
           </div>

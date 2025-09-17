@@ -14,22 +14,19 @@ const SectionE = () => {
         {/* Text Content */}
         <div className="text-white w-full md:w-1/2 z-10">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            Metaponder <span className="text-yellow-400">Solution</span>
+            School ERP System
           </h1>
 
           <p className="mb-8 text-gray-200 text-base sm:text-lg leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore
-            porro consequuntur amet, recusandae facilis hic culpa aliquam
-            molestiae neque vero atque adipisci rem ad voluptatum reprehenderit
-            tempore nulla! Beatae, veniam.
+          “Smart ERP for Modern Schools Connecting teachers, students, parents, and administrators in one system”.
           </p>
 
           <ul className="space-y-6">
             {[
-              { step: 1, title: "Contact Us", desc: "Lorem ipsum dolor sit amet." },
-              { step: 2, title: "Consult", desc: "Lorem ipsum dolor sit amet." },
-              { step: 3, title: "Place Order", desc: "Lorem ipsum dolor sit amet." },
-              { step: 4, title: "Payment", desc: "Lorem ipsum dolor sit amet." },
+              { step: 1, title: "Attendance & Timetable",},
+              { step: 2, title: "Online Fee Management",},
+              { step: 3, title: "Communication with Parents", },
+              { step: 4, title: "Exam Reports & Analytics", },
             ].map(({ step, title, desc }) => (
               <li key={step} className="flex items-start hover:translate-x-2 transition-transform">
                 <span className="bg-white text-[#263B80] rounded-full w-10 h-10 flex items-center justify-center font-bold mr-4 shadow-lg hover:scale-110 transition-transform">

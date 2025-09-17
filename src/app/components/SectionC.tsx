@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 
 // ✅ Stats Data (now 4)
 const stats = [
-  { title: "Educational Product", value: 250, suffix: "+" },
-  { title: "Universities", value: 60, suffix: "+" },
-  { title: "Colleges", value: 25, suffix: "+" },
+  { title: "Autonomous College", value: 6, suffix: "+" },
+  { title: "Universities", value: 5, suffix: "+" },
+  { title: "Colleges", value: 400, suffix: "+" },
   { title: "School", value: 50, suffix: "+" },
 ];
 
@@ -36,21 +36,25 @@ function SectionC() {
   }, []);
 
   return (
-    <section className="bg-white pt-10 pb-30 px-6">
+    <section className="pt-10 pb-30 px-6">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-12">
         {/* Left Content */}
         <div className="max-w-3xl">
-          <p className="text-sm tracking-wide uppercase text-gray-500">
-            Achievements at a Glance
-          </p>
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mt-2">
-            Our Edge in Excellence
+            “More Than Just Software – We Build Educational Ecosystems”
           </h2>
-          <p className="text-gray-700 mt-4 text-lg sm:text-xl leading-relaxed">
-            With decades of industry experience, a diverse range of products,
-            and a dedicated team, we are committed to delivering exceptional
-            quality and service.
+          <p className="text-black mt-8 text-lg sm:text-xl leading-relaxed ">
+            Founded with a vision to modernize traditional education, Metaponder
+            goes beyond basic IT systems by creating intelligent, scalable, and
+            user-friendly platforms.
           </p>
+
+          {/* ✅ Numbered List */}
+          <ol className="list-decimal pl-6 text-black mt-12 text-lg sm:text-xl leading-relaxed space-y-2">
+            <li>20+ years of domain expertise</li>
+            <li>End-to-end digital transformation for institutions</li>
+            <li>Trusted by leading universities & schools</li>
+          </ol>
         </div>
 
         {/* Right Staggered Stats */}
@@ -94,7 +98,6 @@ function StatCard({ title, value, suffix }) {
     <div className="relative bg-[#0A1445] text-white text-center rounded-xl p-8 flex flex-col items-center justify-center shadow-lg w-35 sm:w-52 sm:h-40">
       {/* Offset Blue Edges */}
       <div className="absolute top-0 right-0 w-2 h-full bg-blue-600 rounded-r-xl"></div>
-      {/* <div className="absolute bottom-0 right-0 h-2 w-full bg-blue-600 rounded-b-xl"></div> */}
 
       <h3 className="text-xs uppercase tracking-wide text-gray-300">{title}</h3>
       <p className="text-4xl font-bold mt-2">

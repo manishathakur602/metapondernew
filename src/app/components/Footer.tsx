@@ -108,7 +108,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright Bar */}
-      <div className="bg-[#3a3d68] text-center py-4 text-gray-200 text-sm">
+      <div className="bg-gradient-to-r from-[#263B80] via-[#4b5a9c] to-[#9199b7] text-center py-4 text-gray-200 text-lg">
         Copyright &copy; 2025 Metaponder
       </div>
     </footer>

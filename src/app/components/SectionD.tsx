@@ -29,21 +29,22 @@ const SectionD = () => {
         {/* Text Section */}
         <div className="text-white ">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight mb-5 text-center sm:text-start">
-            Metaponder <span className="text-yellow-400">Solutions</span>
+         University Management System (UMS)
           </h2>
 
           <p className="text-gray-200 mb-10 text-base sm:text-lg leading-relaxed text-center sm:text-start">
-            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum,
-            nec sagittis sem nibh id elit. Sed non mauris vitae erat.
+           “End-to-End Automation for Universities & Autonomous College From admissions to degree processing, everything in one secure platform".
+
           </p>
+          
 
           {/* Steps */}
           <div className="space-y-6">
             {[
-              { num: 1, title: "Contact us", desc: "Nullam ac urna eu felis dapibus." },
-              { num: 2, title: "Consult", desc: "Nullam ac urna eu felis dapibus." },
-              { num: 3, title: "Place order", desc: "Nulla ac odio ac erat varius rutrum." },
-              { num: 4, title: "Payment", desc: "Nulla ac odio ac erat varius rutrum." },
+              { num: 1, title: "Admissions & Enrolment",  },
+              { num: 2, title: "Examination & Result Processing",  },
+              { num: 3, title: "Academic & Curriculum Management", },
+              { num: 4, title: "Degree & Transcript Generation", },
             ].map((step) => (
               <div
                 key={step.num}
